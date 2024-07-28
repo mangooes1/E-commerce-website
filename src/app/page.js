@@ -6,6 +6,10 @@ import Main from "./components/Main";
 import Cards from "./components/Cards";
 import Features from "./components/Features";
 import Contact from "./components/Contact";
+import Social from "./components/Social";
+import Query from "./components/Query";
+import About from "./components/About";
+import SignUp from "./components/SignUp";
 
 export default function Home() {
   return (
@@ -13,8 +17,13 @@ export default function Home() {
       <Navbar />
       <Main/>
       <Cards/>
+      <Social />
       <Features />
+      <Query/>
       <Contact />
+      <About />
+      <SignUp />
+   
 
 
       {/* <div className="flex items-center justify-center min-h-screen">
