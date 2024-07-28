@@ -9,7 +9,7 @@ const Contact = () => {
             <div className="ms-3 mb-md-5">
                 <h3>Contact us</h3>
                 <p>
-                    For further questions, including partnership opportunities, please email hello@creative-tim.com
+                    For further questions, including partnership opportunities, please email Nishu@gmail.com
                     or contact using our contact form.
                 </p>
             </div>
@@ -22,7 +22,7 @@ const Contact = () => {
                     <div className="card-body">
                         <div className="row">
                             <div className="col-md-6">
-                                <label>Full Name</label>
+                                <label>Enter Your Name</label>
                                 <div className="input-group mb-4">
                                     <input className="form-control" placeholder="Full Name" aria-label="Full Name" type="text"/>
                                 </div>
@@ -30,13 +30,13 @@ const Contact = () => {
                             <div className="col-md-6 ps-md-2">
                                 <label>Email</label>
                                 <div className="input-group">
-                                    <input type="email" className="form-control" placeholder="hello@creative-tim.com"/>
+                                    <input type="email" className="form-control" placeholder="your@gmail.com"/>
                                 </div>
                             </div>
                         </div>
                         <div className="form-group mb-4 mt-md-0 mt-4">
                             <label>What can we help you?</label>
-                            <textarea name="message" className="form-control" id="message" rows="6" placeholder="Describe your problem in at least 250 characters"></textarea>
+                            <textarea name="message" className="form-control" id="message" rows="6" placeholder="Jot Down Your feelings"></textarea>
                         </div>
                         <div className="row">
                             <div className="col-md-12 text-center">

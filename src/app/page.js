@@ -9,7 +9,7 @@ import Contact from "./components/Contact";
 import Social from "./components/Social";
 import Query from "./components/Query";
 import About from "./components/About";
-import SignUp from "./components/SignUp";
+// import SignUp from "./components/SignUp";
 
 export default function Home() {
   return (
@@ -22,7 +22,7 @@ export default function Home() {
       <Query/>
       <Contact />
       <About />
-      <SignUp />
+      {/* <SignUp /> */}
    
 
 
