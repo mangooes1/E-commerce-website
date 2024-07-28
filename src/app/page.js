@@ -9,6 +9,10 @@ import Contact from "./components/Contact";
 import Social from "./components/Social";
 import Query from "./components/Query";
 import About from "./components/About";
+<<<<<<< HEAD
+=======
+import Footer from "./components/Footer";
+>>>>>>> 2db93f455e2e6b8d7a9368d8002c31ba9883e6ba
 // import SignUp from "./components/SignUp";
 
 export default function Home() {
@@ -23,6 +27,10 @@ export default function Home() {
       <Contact />
       <About />
       {/* <SignUp /> */}
+<<<<<<< HEAD
+=======
+      <Footer />
+>>>>>>> 2db93f455e2e6b8d7a9368d8002c31ba9883e6ba
    
 
 
