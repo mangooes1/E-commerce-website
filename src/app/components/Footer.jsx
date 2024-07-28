@@ -4,12 +4,12 @@ import '../styles/template.css';
 const Footer = () => {
   return (
   
-    <div className="container">
+    <div className="container mt-8">
     <div className="row">
         <div className="col-lg-3 mb-5 mb-lg-0">
             <h6 className="text-uppercase mb-2">Soft</h6>
             <p className="mb-4 pb-2">
-                The next generation of design systems.
+            Discover bespoke beauty in our collection, where each piece is tailored to reflect individuality and timeless elegance.
             </p>
             <a href="javascript:;" className="text-secondary me-xl-4 me-3">
                 <span className="text-lg fab fa-facebook" aria-hidden="true"></span>
@@ -147,7 +147,7 @@ const Footer = () => {
     <div className="row">
         <div className="col-8 mx-lg-auto text-lg-center">
             <p className="text-sm text-secondary">
-                Copyright © 2022 Soft by Creative Tim.
+                Copyright © Stitch & Glow by NISHITA
             </p>
         </div>
     </div>

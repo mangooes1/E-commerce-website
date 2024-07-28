@@ -3,7 +3,7 @@ import '../styles/template.css';
 
 const Contact = () => {
   return (
-    <div className="container">
+    <div className="container mt-6">
     <div className="row align-items-center">
         <div className="col-lg-8 mx-auto text-center">
             <div className="ms-3 mb-md-5">

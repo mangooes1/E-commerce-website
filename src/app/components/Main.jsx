@@ -1,27 +1,52 @@
-import React from 'react';
-import '../styles/template.css';
+import React from "react";
+import "../styles/template.css";
+import Typewriter from "typewriter-effect";
+
 const PageHeader = () => {
   return (
     <div className="page-header min-vh-100">
       <div className="oblique position-absolute top-0 h-100 d-md-block d-none">
         <div
           className="oblique-image bg-cover position-absolute fixed-top ms-auto h-100 z-index-0 ms-n6"
-          style={{ backgroundImage: 'url(https://demos.creative-tim.com/soft-ui-design-system/assets/img/curved-images/curved11.jpg)' }}
+          style={{
+            backgroundImage:
+              "url(https://demos.creative-tim.com/soft-ui-design-system/assets/img/curved-images/curved11.jpg)",
+          }}
         ></div>
       </div>
       <div className="container">
         <div className="row">
           <div className="col-lg-6 col-md-7 d-flex justify-content-center flex-column">
-            <h1 className="text-gradient text-primary">Your Work With</h1>
-            <h1 className="mb-4">Soft Design System</h1>
+            <h1 className="text-gradient text-primary">
+              Illuminate your style with
+            </h1>
+            <h1 className="mb-4">
+              <Typewriter
+                options={{
+                  strings: [
+                    "Our Lehngas",
+                    "Our Elegant Sarees",
+                    "Our Exqusite Designs",
+                    "Grace",
+                    "Stitch&Glow",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </h1>
             <p className="lead pe-5 me-5">
-              The time is now for it be okay to be great. People in this world shun people for being nice.
+              The time is now for it be okay to be great. People in this world
+              shun people for being nice.
             </p>
             <div className="buttons">
               <button type="button" className="btn bg-gradient-primary mt-4">
                 Get Started
               </button>
-              <button type="button" className="btn text-primary shadow-none mt-4">
+              <button
+                type="button"
+                className="btn text-primary shadow-none mt-4"
+              >
                 Read more
               </button>
             </div>
