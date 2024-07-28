@@ -1,7 +1,7 @@
 // pages/index.js or pages/index.tsx
 "use client";
 import Navbar from "./components/Navbar";
-import Test from "./components/Test";
+import Main from "./components/Main";
 // import Forms from "./components/Forms";
 import Cards from "./components/Cards";
 import Features from "./components/Features";
@@ -14,9 +14,9 @@ import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <div className="bg-black">
+    <div className="">
       <Navbar />
-      <Test />
+      <Main/>
       <Cards/>
       <Social />
       <Features />
