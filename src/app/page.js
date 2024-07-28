@@ -9,36 +9,25 @@ import Contact from "./components/Contact";
 import Social from "./components/Social";
 import Query from "./components/Query";
 import About from "./components/About";
-<<<<<<< HEAD
-=======
-import Footer from "./components/Footer";
->>>>>>> 2db93f455e2e6b8d7a9368d8002c31ba9883e6ba
-// import SignUp from "./components/SignUp";
+import Footer  from "./components/Footer";
 
-export default function Home() {
+
+
+const page = () => {
   return (
-    <div className="">
+    <>
       <Navbar />
-      <Main/>
-      <Cards/>
-      <Social />
-      <Features />
-      <Query/>
+      <Main />
+      <Cards />
+      < Features />
       <Contact />
+      <Social />
+      <Query />
       <About />
-      {/* <SignUp /> */}
-<<<<<<< HEAD
-=======
       <Footer />
->>>>>>> 2db93f455e2e6b8d7a9368d8002c31ba9883e6ba
-   
 
-
-      {/* <div className="flex items-center justify-center min-h-screen">
-        <h1 className="text-4xl text-white">Hi! Aditya</h1>
-      </div> */}
-
-
-    </div>
-  );
+    </>
+  )
 }
+
+export default page
