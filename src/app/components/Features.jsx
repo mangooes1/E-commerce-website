@@ -12,14 +12,13 @@ const Features = () => {
                 className="full-background"
                 style={{
                   backgroundImage:
-                    "url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/glass-wall.jpg')",
+                    "url('https://i.pinimg.com/originals/0c/97/26/0c97268ed1e4eb821ec58b7db652a732.jpg')",
                 }}
               ></div>
               <div className="card-body pt-12">
-                <h4 className="text-white">Campus 6</h4>
+                <h4 className="text-white">Lehnga</h4>
                 <p>
-                  Website visitors today demand a frictionless user
-                  experience.
+                Step into elegance with our stunning Indian lehengas, where tradition meets modern style.
                 </p>
               </div>
             </div>
@@ -31,16 +30,13 @@ const Features = () => {
                 className="full-background"
                 style={{
                   backgroundImage:
-                    "url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/vr.jpg')",
+                    "url('https://i.pinimg.com/originals/e8/1e/6c/e81e6c50d75e66ea14ce4ea00029ce44.jpg')",
                 }}
               ></div>
               <div className="card-body pt-12">
-                <h4 className="text-white">Virtual Office</h4>
+                <h4 className="text-white">Suits</h4>
                 <p>
-                  If you’re more passionate about founding a business than the
-                  business itself, you can fall into a ten-year trap. Better to
-                  stay emotionally unattached and select the best opportunity
-                  that arises. Applies to relationships too.
+                Redefine your style with our tailored suits, expertly crafted to offer a perfect fusion of classic elegance and modern flair.
                 </p>
               </div>
             </div>
@@ -53,16 +49,13 @@ const Features = () => {
                 className="full-background"
                 style={{
                   backgroundImage:
-                    "url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/books.jpg')",
+                    "url('https://i.pinimg.com/originals/a6/a9/b7/a6a9b72e56a641bf777192d87e1820f5.jpg')",
                 }}
               ></div>
               <div className="card-body pt-12">
-                <h4 className="text-white">Cozy Spots</h4>
+                <h4 className="text-white">Saree</h4>
                 <p>
-                  If you’re more passionate about founding a business than the
-                  business itself, you can fall into a ten-year trap. Better to
-                  stay emotionally unattached and select the best opportunity
-                  that arises. Applies to relationships too.
+                Elevate your style with our exquisite sarees, expertly crafted to blend traditional charm with modern elegance. Perfect for any occasion, each piece is a testament to timeless beauty and sophistication.
                 </p>
               </div>
             </div>
@@ -74,13 +67,13 @@ const Features = () => {
                 className="full-background"
                 style={{
                   backgroundImage:
-                    "url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-members.jpg')",
+                    "url('https://i.pinimg.com/originals/4b/6c/0d/4b6c0dd347a2ed2d0b0ee0ef9b74bb01.jpg')",
                 }}
               ></div>
               <div className="card-body pt-12">
-                <h4 className="text-white">Co-working Spaces</h4>
+                <h4 className="text-white">Western</h4>
                 <p>
-                  Smart money is just dumb money that’s been through a crash.
+                Explore our collection of Western clothes, offering chic designs and contemporary styles that redefine fashion, perfect for expressing your unique style and confidence.
                 </p>
               </div>
             </div>
@@ -93,15 +86,13 @@ const Features = () => {
                 className="full-background"
                 style={{
                   backgroundImage:
-                    "url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/window-desk.jpg')",
+                    "url('https://i.pinimg.com/originals/a8/6a/fc/a86afc225ba2b7a8f7f2685764f0e22c.jpg')",
                 }}
               ></div>
               <div className="card-body pt-12">
-                <h4 className="text-white">Home Office</h4>
+                <h4 className="text-white">Sharara</h4>
                 <p>
-                  Website visitors today demand a frictionless user experience
-                  — especially when using search. Because of the high
-                  standards.
+                Make a statement with our stunning sharara dresses, where traditional charm meets contemporary style, creating a unique and elegant look for every celebration.
                 </p>
               </div>
             </div>
@@ -113,15 +104,13 @@ const Features = () => {
                 className="full-background"
                 style={{
                   backgroundImage:
-                    "url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/imac.jpg')",
+                    "url('https://i.pinimg.com/originals/61/32/78/613278db5538a99c53daeafc88967859.jpg')",
                 }}
               ></div>
               <div className="card-body pt-12">
-                <h4 className="text-white">Private Space</h4>
+                <h4 className="text-white">Indo-Western</h4>
                 <p>
-                  Technology is not only the thing that moves the human race
-                  forward, but it’s the only thing that ever has. Without
-                  technology, we’re just monkeys playing in the dirt.
+                Unleash your style with our Indo-Western dresses, seamlessly blending traditional charm and contemporary design for a stunning, unique look
                 </p>
               </div>
             </div>
