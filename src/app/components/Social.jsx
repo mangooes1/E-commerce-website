@@ -12,13 +12,13 @@ const Social = () => {
             </div>
             <div className="col-lg-6 d-flex align-items-center">
                 <a href="javascript:;" className="btn btn-twitter mb-0 me-2">
-                    <i className="fab fa-twitter me-1" aria-hidden="true"></i> Twitter
+                    <i className="fab fa-instagram me-1" aria-hidden="true"></i> Instagram
                 </a>
                 <a href="javascript:;" className="btn btn-facebook mb-0 me-2">
                     <i className="fab fa-facebook-square me-1" aria-hidden="true"></i> Facebook
                 </a>
                 <a href="javascript:;" className="btn btn-tumblr mb-0 me-2">
-                    <i className="fab fa-tumblr me-1" aria-hidden="true"></i> Tumblr
+                    <i className="fab fa-pinterest me-1" aria-hidden="true"></i> Pinterest
                 </a>
                 <a href="javascript:;" className="btn btn-dribbble mb-0">
                     <i className="fab fa-dribbble me-1" aria-hidden="true"></i> Dribbble
