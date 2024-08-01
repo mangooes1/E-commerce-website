@@ -3,33 +3,29 @@ import React from "react";
 import "../styles/template.css";
 import Typewriter from "typewriter-effect";
 // import Link from "next/link";
-import { useRouter } from 'next/navigation'
+import Image from "next/image";
 
 const PageHeader = () => {
 
-  const router = useRouter();
   return (
-    <div className="page-header min-vh-100" style={{backgroundImage:
-              "url(https://demos.creative-tim.com/soft-ui-design-system/assets/img/curved-images/curved11.jpg)",}}>
+    <div className="page-header min-vh-85"
+     style={{backgroundImage:
+               "url(https://images.unsplash.com/photo-1509067917181-3ec8d8ef5170?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
+              
+               }}
+    >
+  
     <div > 
-      <div className="oblique position-absolute top-0 h-100 d-md-block d-none">
-      {/* 2nd image */}
-        {/* <div
-          className="oblique-image bg-cover position-absolute fixed-top ms-auto h-100 z-index-0 ms-n6"
-          style={{
-            // backgroundImage:
-            //   "url(https://i0.wp.com/backgroundabstract.com/wp-content/uploads/edd/2022/02/distressed-grunge-with-diagonal-ink-stripe-background_1409-1373-e1656067454674.jpg?fit=826%2C496&ssl=1)",
-          
-          }}
-        ></div> */}
-      </div>
+     
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 col-md-7 d-flex justify-content-center flex-column">
-            <h1 className="text-gradient text-primary">
+          <div className="col-lg-12 col-md-7 d-flex justify-content-center flex-column">
+            <h1 className="head"
+            style={{color:"white"}}
+            >
               Illuminate your style with
             </h1>
-            <h1 className="mb-4">
+            <h1 className="mb-4" style={{color:"white"}}>
               <Typewriter
                 options={{
                   strings: [
@@ -43,18 +39,19 @@ const PageHeader = () => {
                 }}
               />
             </h1>
-            <p className="lead pe-5 me-5">
+            <p className="lead pe-5 me-5" style={{color:"white"}}>
             Experience the brilliance of fashion with us and let your style shine.
             </p>
             <div className="buttons">
-              <button type="button" className="btn bg-gradient-primary mt-4" >
-             Shop Now
+              <button type="button" className="btn bg-black mt-4" >
+              <a href="#features" className="text-white">Shop Now</a>
               </button>
               <button
                 type="button"
                 className="btn text-primary shadow-none mt-4"
               >
-                Contact us
+              <a href="#contact" className="text-white"  >Contact us</a>
+              
               </button>
             </div>
           </div>

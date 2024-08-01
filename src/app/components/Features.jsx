@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Features = () => {
   return (
-    <div className="container">
+    <div className="container" id="features">
       <div className="row mt-5">
         <div className="col-lg-4 mb-lg-0 mb-4">
           <a href="/ShoppingPage">

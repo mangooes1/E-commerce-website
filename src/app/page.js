@@ -12,7 +12,7 @@ import Social from "./components/Social";
 import Query from "./components/Query";
 import About from "./components/About";
 import Footer  from "./components/Footer";
-import ShoppingPage from "./components/ShoppingPage";
+// import ShoppingPage from "./components/ShoppingPage";
 
 
 
@@ -28,7 +28,7 @@ const page = () => {
       <Query />
       <About />
       <Footer />
-      <ShoppingPage/>
+      {/* <ShoppingPage/> */}
 
     </>
   )

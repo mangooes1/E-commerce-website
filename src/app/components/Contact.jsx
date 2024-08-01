@@ -3,7 +3,10 @@ import Confetti from 'react-confetti';
 import '../styles/template.css';
 
 const Contact = () => {
-  const [isSubmitted, setSubmitted] = useState(false);
+  const [isSubmitted, setSubmitted
+
+    
+  ] = useState(false);
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -39,7 +42,7 @@ const Contact = () => {
       <Confetti />
     </div>
   ) : (
-    <div className="container mt-6">
+    <div className="container mt-6 " id='contact'>
       <div className="row align-items-center">
         <div className="col-lg-8 mx-auto text-center">
           <div className="ms-3 mb-md-5">

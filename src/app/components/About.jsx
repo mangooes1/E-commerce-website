@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/template.css";
 const About = () => {
   return (
-    <div className="container mt-6">
+    <div className="container mt-6" id="about">
       <div className="row">
         <div className="col-lg-6">
           <h3 className="text-gradient text-primary mb-0 mt-2">
