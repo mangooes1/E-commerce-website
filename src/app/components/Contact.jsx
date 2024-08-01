@@ -65,6 +65,7 @@ const Contact = () => {
                       aria-label="Full Name"
                       type="text"
                       value={name}
+                      name='name'
                       onChange={(e) => setName(e.target.value)}
                     />
                   </div>
@@ -77,6 +78,7 @@ const Contact = () => {
                       className="form-control"
                       placeholder="your@gmail.com"
                       value={email}
+                      name='email'
                       onChange={(e) => setEmail(e.target.value)}
                     />
                   </div>
@@ -91,6 +93,7 @@ const Contact = () => {
                   rows="6"
                   placeholder="Jot Down Your feelings"
                   value={message}
+                //   name="message"
                   onChange={(e) => setMessage(e.target.value)}
                 ></textarea>
               </div>
