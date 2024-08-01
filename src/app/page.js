@@ -1,6 +1,8 @@
 // pages/index.js or pages/index.tsx
 "use client";
 import "bootstrap/dist/css/bootstrap.min.css";
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import Navbar from "./components/Navbar";
 import Main from "./components/Main";
