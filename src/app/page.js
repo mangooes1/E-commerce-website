@@ -1,5 +1,7 @@
 // pages/index.js or pages/index.tsx
 "use client";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 import Navbar from "./components/Navbar";
 import Main from "./components/Main";
 // import Forms from "./components/Forms";
@@ -10,6 +12,7 @@ import Social from "./components/Social";
 import Query from "./components/Query";
 import About from "./components/About";
 import Footer  from "./components/Footer";
+// import ShoppingPage from "./components/ShoppingPage";
 
 
 
@@ -19,12 +22,13 @@ const page = () => {
       <Navbar />
       <Main />
       <Cards />
-      < Features />
+      <Features />
       <Contact />
       <Social />
       <Query />
       <About />
       <Footer />
+      {/* <ShoppingPage/> */}
 
     </>
   )
