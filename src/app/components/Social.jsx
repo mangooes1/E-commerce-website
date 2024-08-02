@@ -3,7 +3,7 @@ import '../styles/template.css';
 
 const Social = () => {
   return (
-    <div className="py-5" id="social">
+    <div className="py-5 pt-5 pb-5" id="social"  style={{backgroundColor:`#FFF5E0`}}>
     <div className="container">
         <div className="row">
             <div className="col-lg-6">

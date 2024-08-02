@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/template.css";
 const Cards = () => {
   return (
-    <div className="container mt-6">
+    <div className="container pt-6"  style={{backgroundColor:`#FFF5E0`}}>
       <div className="row">
         <div className="col-lg-8 mx-auto text-center">
           <div className="card card-blog card-plain">
