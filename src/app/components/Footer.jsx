@@ -1,10 +1,10 @@
 import React from 'react'
 import '../styles/template.css';
-<script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+
 const Footer = () => {
   return (
   
-    <div className="container mt-8">
+    <div className="container mt-4 pt-7" style={{backgroundColor:`#FFF5E0`}} >
     <div className="row">
         <div className="col-lg-4 mb-5 mb-lg-0">
             <h6 className="text-uppercase mb-2">Soft</h6>
@@ -81,8 +81,6 @@ const Footer = () => {
             </ul>
         </div> 
 
-      
-
         <div className="col-md-4 col-12 mb-md-0 mb-4">
             <h6 className="text-sm">Resources</h6>
             <ul className="flex-column ms-n3 nav">
@@ -112,11 +110,11 @@ const Footer = () => {
             </ul>
         </div>
     </div>
-    <hr className="horizontal dark mt-lg-5 mt-4 mb-sm-4 mb-1"/>
-    <div className="row">
+    {/* <hr className="horizontal dark mt-lg-5 mt-4 mb-sm-4 mb-1"/> */}
+    <div className=" footer-row" style={{backgroundColor:`#000`,padding:5}} >
         <div className="col-8 mx-lg-auto text-lg-center">
-            <p className="text-sm text-secondary">
-                Copyright © Stitch&Glow by NISHITA
+            <p className="text-sm text-secondary mt-4" style={{color:`#E4C59E`, fontWeight:700, fontSize:20}} >
+            NISHITA  © Stitch&Glow.
             </p>
         </div>
     </div>

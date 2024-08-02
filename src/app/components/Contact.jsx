@@ -42,7 +42,7 @@ const Contact = () => {
       <Confetti />
     </div>
   ) : (
-    <div className="container mt-6 " id='contact'>
+    <div className="container pt-6 " id='contact'  style={{backgroundColor:`#FFF5E0`}}>
       <div className="row align-items-center">
         <div className="col-lg-8 mx-auto text-center">
           <div className="ms-3 mb-md-5">
@@ -60,7 +60,7 @@ const Contact = () => {
             <form onSubmit={onSubmit} className="card-body">
               <div className="row">
                 <div className="col-md-6">
-                  <label>Enter Your Name</label>
+                  <label  style={{backgroundColor:`#FFF5E0`}}>Enter Your Name</label>
                   <div className="input-group mb-4">
                     <input
                       className="form-control"
@@ -74,7 +74,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="col-md-6 ps-md-2">
-                  <label>Email</label>
+                  <label  style={{backgroundColor:`#FFF5E0`}}>Email</label>
                   <div className="input-group">
                     <input
                       type="email"
@@ -88,7 +88,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="form-group mb-4 mt-md-0 mt-4">
-                <label>What can we help you?</label>
+                <label  style={{backgroundColor:`#FFF5E0`}}>What can we help you?</label>
                 <textarea
                   name="message"
                   className="form-control"
@@ -102,7 +102,7 @@ const Contact = () => {
               </div>
               <div className="row">
                 <div className="col-md-12 text-center">
-                  <button type="submit" className="btn bg-gradient-primary mt-4">
+                  <button type="submit" className="btn bg-black text-white mt-4">
                     Send Message
                   </button>
                 </div>

@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/template.css";
 const Cards = () => {
   return (
-    <div className="container mt-6">
+    <div className="container pt-6"  style={{backgroundColor:`#FFF5E0`}}>
       <div className="row">
         <div className="col-lg-8 mx-auto text-center">
           <div className="card card-blog card-plain">
@@ -16,7 +16,7 @@ const Cards = () => {
               </a>
             </div>
             <div className="card-body px-0 pt-4">
-              <p className="text-gradient text-primary text-gradient font-weight-bold text-sm text-uppercase">
+              <p className="text-black font-weight-bold text-sm text-uppercase">
                 HandMade
               </p>
               <a href="javascript:;">
@@ -33,7 +33,7 @@ const Cards = () => {
                 elegance and modern trends. Embrace the uniqueness of handmade
                 fashion and discover pieces that are as individual as you are.
               </p>
-              <button type="button" className="btn bg-gradient-primary mt-3">
+              <button type="button" className="btn bg-black text-white mt-3">
                 Read more
               </button>
             </div>
@@ -68,7 +68,7 @@ const Cards = () => {
                 unforgettable memories with attire that honors the past while
                 embracing the present."
               </p>
-              <button type="button" className="btn bg-gradient-warning mt-3">
+              <button type="button" className="btn bg-black text-white mt-3">
                 Read more
               </button>
             </div>

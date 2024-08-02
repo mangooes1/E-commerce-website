@@ -19,6 +19,27 @@
       "image": "/images/product3.jpg",
       "price": 49.99,
       "description": "Description for product 3."
+    },
+    {
+      "id": 4,
+      "name": "Product 2",
+      "image": "/images/product2.jpg",
+      "price": 39.99,
+      "description": "Description for product 2."
+    },
+    {
+      "id": 5,
+      "name": "Product 2",
+      "image": "/images/product2.jpg",
+      "price": 39.99,
+      "description": "Description for product 2."
+    },
+    {
+      "id": 6,
+      "name": "Product 2",
+      "image": "/images/product2.jpg",
+      "price": 39.99,
+      "description": "Description for product 2."
     }
   ]
   

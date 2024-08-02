@@ -707,7 +707,7 @@
   
     .container,
     .container-sm {
-      max-width: 540px;
+      max-width: fit-content;
     }
   }
   
@@ -716,7 +716,7 @@
     .container,
     .container-sm,
     .container-md {
-      max-width: 720px;
+      max-width: fit-content;
     }
   }
   
@@ -726,7 +726,7 @@
     .container-sm,
     .container-md,
     .container-lg {
-      max-width: 960px;
+      max-width: fit-content;
     }
   }
   
@@ -737,7 +737,7 @@
     .container-md,
     .container-lg,
     .container-xl {
-      max-width: 1140px;
+      max-width: fit-content;
     }
   }
   
@@ -749,7 +749,7 @@
     .container-lg,
     .container-xl,
     .container-xxl {
-      max-width: 1320px;
+      max-width: fit-content;
     }
   }
   
@@ -2748,7 +2748,7 @@
     color: #495057;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid #d2d6da;
+    border: 1.5px solid #31363F;
     appearance: none;
     border-radius: 0.5rem;
     transition: box-shadow 0.15s ease, border-color 0.15s ease;
@@ -2771,9 +2771,9 @@
   .form-control:focus {
     color: #495057;
     background-color: #fff;
-    border-color: #e293d3;
+    border-color: #000;
     outline: 0;
-    box-shadow: 0 0 0 2px #e9aede;
+    box-shadow: 0 0 0 2px #000;
   }
   
   .form-control::-webkit-date-and-time-value {
@@ -21493,8 +21493,8 @@
   }
   
   .input-group .form-control:focus {
-    border-left: 1px solid #e293d3 !important;
-    border-right: 1px solid #e293d3 !important;
+    border-left: 1px solid #000 !important;
+    border-right: 1px solid #000!important;
   }
   
   .input-group .form-control:not(:first-child) {
@@ -21545,12 +21545,12 @@
   }
   
   .focused .form-control+.input-group-text {
-    border-color: #e293d3;
-    border-right: 1px solid #e293d3 !important;
+    border-color: #000;
+    border-right: 1px solid #000 !important;
   }
   
   .focused .input-group-text {
-    border-color: #e293d3;
+    border-color: #000;
   }
   
   .form-check:not(.form-switch) .form-check-input[type="checkbox"],
@@ -23888,7 +23888,7 @@
     border-left: 0;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    border-right: 1px solid #d2d6da;
+    border-right: 1px solid #000;
   }
   
   .rtl .input-group> :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
@@ -23896,7 +23896,7 @@
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
     border-right: 0;
-    border-left: 1px solid #d2d6da;
+    border-left: 1px solid #000;
   }
   
   .rtl .input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n + 3),
