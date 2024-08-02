@@ -1,8 +1,10 @@
+
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function FlushExample() {
+
+function Query() {
   return (
     <>
       <div className="text-center pb-4"  style={{backgroundColor:`#FFF5E0`}}>
@@ -67,7 +69,8 @@ function FlushExample() {
         </Accordion.Item>
       </Accordion>
     </>
+
   );
 }
 
-export default FlushExample;
+export default Query;
