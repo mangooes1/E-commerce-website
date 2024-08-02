@@ -77,14 +77,14 @@
 /////////////////////////////////////////////////////////////////////
 "use client";
 import { useEffect, useState } from "react";
-import FeaturesComponent from "@/app/components/ShoppingPage";
+import FeaturesComponent from "@/app/components/Features";
 import Image from "next/image";
-import { useCart } from "../context/page";
+
 
 const Home = () => {
   const [products, setProducts] = useState([]);
   const [likedProducts, setLikedProducts] = useState({});
-  const {dispatch} = useCart();
+ 
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -102,17 +102,14 @@ const Home = () => {
       [id]: !prevLikedProducts[id],
     }));
   };
-  const addToCart = (product) => {
-    dispatch({ type: 'ADD_TO_CART', product });
-  };
+
 
   return (
     <> 
     <FeaturesComponent/>
-    <div className="container">
+    <div className="container" id="ShoppingPage">
       <h1>Shopping Cart</h1>
-      <Link href="/cart"><button>Go to Cart</button></Link>
-      <div className="grid">
+      <div className="grid"  >
         {products.map((product) => (
           <div key={product.id} className="card">
             <Image src={product.image} alt={product.name} width={200} height={200} />
@@ -122,7 +119,7 @@ const Home = () => {
             <button onClick={() => toggleLike(product.id)}>
               {likedProducts[product.id] ? "❤️" : "♡"}
             </button>
-            <button onClick={() => addToCart(product)}>Add to Cart</button>
+            <button>Buy Now</button>
           </div>
         ))}
       </div>

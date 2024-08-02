@@ -123,9 +123,9 @@ function SingleNavbar() {
   const expand = 'md'; // You can set this to any desired breakpoint
   
   return (
-    <Navbar expand={expand} className="bg-body-tertiary ">
+    <Navbar expand={expand} className=" bg-black text-white ">
       <Container fluid>
-        <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand>
+        <Navbar.Brand href="#">Stitch&Glow.</Navbar.Brand>
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
         <Navbar.Offcanvas
           id={`offcanvasNavbar-expand-${expand}`}
@@ -138,20 +138,22 @@ function SingleNavbar() {
             </Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
-            <Nav className="justify-content-end flex-grow-1 pe-3">
-              <Nav.Link href="#action1">Home</Nav.Link>
-              <Nav.Link href="#action2">Link</Nav.Link>
+            <Nav className="justify-content-end flex-grow-1 pe-3 mt-3
+            ">
+              <Nav.Link href="#">Home</Nav.Link>
+              <Nav.Link href="#about">About Us</Nav.Link>
+             
               <NavDropdown
-                title="Dropdown"
+                title="Shop"
                 id={"offcanvasNavbarDropdown-expand-lg"}
               >
-                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action4">
-                  Another action
+                <NavDropdown.Item href="#features">Lehnga</NavDropdown.Item>
+                <NavDropdown.Item href="#features">
+                  Saree
                 </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action5">
-                  Something else here
+                {/* <NavDropdown.Divider /> */}
+                <NavDropdown.Item href="#features">
+                  Others
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
@@ -162,7 +164,7 @@ function SingleNavbar() {
                 className="me-2"
                 aria-label="Search"
               /> */}
-              <Button variant="outline-success">Search</Button>
+              <Button  type="search" className="btn bg-black text-white mt-3">Search</Button>
             </Form>
           </Offcanvas.Body>
         </Navbar.Offcanvas>

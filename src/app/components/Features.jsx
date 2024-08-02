@@ -4,10 +4,10 @@ import Link from "next/link";
 
 const Features = () => {
   return (
-    <div className="container" id="features">
+    <div className="container">
       <div className="row mt-5">
         <div className="col-lg-4 mb-lg-0 mb-4">
-          <a href="/ShoppingPage">
+          <a href="#ShoppingPage">
             <div className="card card-background move-on-hover mb-4">
               <div
                 className="full-background"
@@ -25,7 +25,7 @@ const Features = () => {
             </div>
           </a>
 
-          <a href="/ShoppingPage">
+          <a href="#ShoppingPage">
             <div className="card card-background move-on-hover">
               <div
                 className="full-background"
@@ -44,7 +44,7 @@ const Features = () => {
           </a>
         </div>
         <div className="col-lg-4 mb-lg-0 mb-4">
-          <a href="/ShoppingPage">
+          <a href="#ShoppingPage">
             <div className="card card-background move-on-hover mb-4">
               <div
                 className="full-background"
@@ -62,7 +62,7 @@ const Features = () => {
             </div>
           </a>
 
-          <a href="/ShoppingPage">
+          <a href="#ShoppingPage">
             <div className="card card-background move-on-hover">
               <div
                 className="full-background"
@@ -81,7 +81,7 @@ const Features = () => {
           </a>
         </div>
         <div className="col-lg-4">
-          <a href="/ShoppingPage">
+          <a href="#ShoppingPage">
             <div className="card card-background move-on-hover mb-4">
               <div
                 className="full-background"
@@ -99,7 +99,7 @@ const Features = () => {
             </div>
           </a>
 
-          <a href="#shop">
+          <a href="#ShoppingPage">
             <div className="card card-background move-on-hover">
               <div
                 className="full-background"

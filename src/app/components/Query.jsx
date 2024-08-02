@@ -12,7 +12,7 @@ function FlushExample() {
         <Accordion.Item eventKey="0">
           <Accordion.Header>Accordion Item #1</Accordion.Header>
           <Accordion.Body>
-            <p style={{ color: '#007bff' }}>
+            <p style={{ color: '#000' }}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
               minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -26,7 +26,7 @@ function FlushExample() {
         <Accordion.Item eventKey="1">
           <Accordion.Header>Accordion Item #2</Accordion.Header>
           <Accordion.Body>
-            <p style={{ color: '#007bff' }}>
+            <p style={{ color: '#000' }}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
               minim veniam, quis nostrud exercitation ullamco laboris nisi ut

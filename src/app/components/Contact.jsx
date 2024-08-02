@@ -102,7 +102,7 @@ const Contact = () => {
               </div>
               <div className="row">
                 <div className="col-md-12 text-center">
-                  <button type="submit" className="btn bg-gradient-primary mt-4">
+                  <button type="submit" className="btn bg-black text-white mt-4">
                     Send Message
                   </button>
                 </div>
