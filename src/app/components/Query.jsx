@@ -1,12 +1,13 @@
 
+
 import React from "react";
-import Accordion from "react-bootstrap/Accordion";
+import Accordion from 'react-bootstrap/Accordion';
 import "bootstrap/dist/css/bootstrap.min.css";
 
-
 function Query() {
+
   return (
-    <>
+   <>
       <div className="text-center pb-4"  style={{backgroundColor:`#FFF5E0`}}>
         <h1>Frequently Asked Questions</h1>
         <p>Got a Question? No worries,We got you!!</p>
@@ -74,3 +75,5 @@ function Query() {
 }
 
 export default Query;
+
+
