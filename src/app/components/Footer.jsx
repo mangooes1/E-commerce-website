@@ -4,7 +4,7 @@ import '../styles/template.css';
 const Footer = () => {
   return (
   
-    <div className="container mt-4 pt-7" style={{backgroundColor:`#FFF5E0`}} >
+    <div className="container mt-4 pt-7" style={{backgroundColor:`#FFF5E0` , borderTopLeftRadius: "20px", borderTopRightRadius: "20px" }} >
     <div className="row">
         <div className="col-lg-4 mb-5 mb-lg-0">
             <h6 className="text-uppercase mb-2">Soft</h6>
@@ -111,7 +111,7 @@ const Footer = () => {
         </div>
     </div>
     {/* <hr className="horizontal dark mt-lg-5 mt-4 mb-sm-4 mb-1"/> */}
-    <div className=" footer-row" style={{backgroundColor:`#000`,padding:5}} >
+    <div className=" footer-row" style={{backgroundColor:`#000`,padding:5,borderTopLeftRadius: "20px", borderTopRightRadius: "20px" }} >
         <div className="col-8 mx-lg-auto text-lg-center">
             <p className="text-sm text-secondary mt-4" style={{color:`#E4C59E`, fontWeight:700, fontSize:20}} >
             NISHITA  © Stitch&Glow.

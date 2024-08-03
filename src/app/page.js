@@ -17,7 +17,8 @@ import Footer  from "./components/Footer";
 const page = () => {
   return (
     <>
-      <Navbar />
+    <div style={{backgroundColor:"#FFF5E0"}}>
+    <Navbar />
       <Main />
       <Cards />
       <Features />
@@ -26,6 +27,8 @@ const page = () => {
       <About />
       <Contact />
       <Footer />
+    </div>
+     
  
     </>
   )

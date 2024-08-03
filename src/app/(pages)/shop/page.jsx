@@ -1,12 +1,15 @@
-
 import Shop from "@/app/components/ShoppingPage";
 
 const page = () => {
   return (
     <>
-      <Shop/>
+    <center>
+      <div className="style" style={{ backgroundColor: "#fff5e0" }}>
+        <Shop />
+      </div>
+      </center>
     </>
-  )
+  );
 }
 
-export default page
+export default page;

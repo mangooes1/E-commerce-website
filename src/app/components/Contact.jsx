@@ -35,14 +35,14 @@ const Contact = () => {
   };
 
   return isSubmitted ? (
-    <div>
+    <div style={{ borderRadius:"20px"}}>
       <h1 className="text-center font-semibold text-3xl">
         Thank you for your message!
       </h1>
       <Confetti />
     </div>
   ) : (
-    <div className="container pt-6 " id='contact'  style={{backgroundColor:`#FFF5E0`}}>
+    <div className="container pt-6 " id='contact'  style={{backgroundColor:`#FFF5E0`,marginTop:"25px", borderRadius:"20px"}}>
       <div className="row align-items-center">
         <div className="col-lg-8 mx-auto text-center">
           <div className="ms-3 mb-md-5">
