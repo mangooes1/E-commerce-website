@@ -9,7 +9,7 @@ const Cards = () => {
             <div className="position-relative">
               <a className="d-block blur-shadow-image">
                 <img
-                  src="https://i.pinimg.com/originals/1f/d4/e3/1fd4e347fce68c07bbcdc6dfe826513f.jpg"
+                  src="https://i.pinimg.com/originals/f2/c1/6f/f2c16fdc4fb64f2a1a9883a78198c28f.jpg"
                   alt="img-blur-shadow"
                   className="img-fluid shadow border-radius-lg"
                 />
@@ -44,7 +44,7 @@ const Cards = () => {
             <div className="position-relative">
               <a className="d-block blur-shadow-image">
                 <img
-                  src="https://i.pinimg.com/originals/25/00/1d/25001d1ae8f1e4c0fc003543d12bf81d.jpg"
+                  src="https://i.pinimg.com/originals/fd/0a/de/fd0ade6cbea8dfa7e21ff1c1172e120f.jpg"
                   alt="img-blur-shadow"
                   className="img-fluid shadow border-radius-lg"
                 />

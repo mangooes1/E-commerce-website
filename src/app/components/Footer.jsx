@@ -31,28 +31,23 @@ const Footer = () => {
             <h6 className="text-sm">Company</h6>
             <ul className="flex-column ms-n3 nav">
                 <li className="nav-item">
-                    <a className="nav-link text-secondary" href="javascript:;">
+                    <a className="nav-link text-secondary" href="#about">
                         About Us
                     </a>
                 </li>
 
                 <li className="nav-item">
-                    <a className="nav-link text-secondary" href="javascript:;">
+                    <a className="nav-link text-secondary" href="#features">
                         Products
                     </a>
                 </li>
 
                 <li className="nav-item">
-                    <a className="nav-link text-secondary" href="javascript:;">
+                    <a className="nav-link text-secondary" href="#query">
                     FAQ's
                     </a>
                 </li>
 
-                <li className="nav-item">
-                    <a className="nav-link text-secondary" href="javascript:;">
-                        Shipping
-                    </a>
-                </li>
             </ul>
         </div>
 
@@ -60,19 +55,19 @@ const Footer = () => {
             <h6 className="text-sm">Pages</h6>
             <ul className="flex-column ms-n3 nav">
                 <li className="nav-item">
-                    <a className="nav-link text-secondary" href="javascript:;">
+                    <a className="nav-link text-secondary" href="#contact">
                         Contact Us
                     </a>
                 </li>
 
                 <li className="nav-item">
-                    <a className="nav-link text-secondary" href="javascript:;">
+                    <a className="nav-link text-secondary" href="#about">
                     Terms and Conditions
                     </a>
                 </li>
 
                 <li className="nav-item">
-                    <a className="nav-link text-secondary" href="javascript:;">
+                    <a className="nav-link text-secondary" href="#contact">
                         Collaborations
                     </a>
                 </li>
@@ -81,7 +76,7 @@ const Footer = () => {
             </ul>
         </div> 
 
-        <div className="col-md-4 col-12 mb-md-0 mb-4">
+        <div className="col-md-4 col-12 mb-md-0 mb-4 pl-6">
             <h6 className="text-sm">Resources</h6>
             <ul className="flex-column ms-n3 nav">
                 <li className="nav-item">
@@ -96,14 +91,8 @@ const Footer = () => {
                     </a>
                 </li>
 
-                <li className="nav-item">
-                    <a className="nav-link text-secondary" href="javascript:;">
-                        Product
-                    </a>
-                </li>
-
-                <li className="nav-item">
-                    <a className="nav-link text-secondary" href="javascript:;">
+                    <li className="nav-item">
+                    <a className="nav-link text-secondary" href="#Shop">
                         Pricing
                     </a>
                 </li>
@@ -111,7 +100,7 @@ const Footer = () => {
         </div>
     </div>
     {/* <hr className="horizontal dark mt-lg-5 mt-4 mb-sm-4 mb-1"/> */}
-    <div className=" footer-row" style={{backgroundColor:`#000`,padding:5,borderTopLeftRadius: "20px", borderTopRightRadius: "20px" }} >
+    <div className=" footer-row " style={{backgroundColor:`#000`,padding:5,borderTopLeftRadius: "20px", borderTopRightRadius: "20px", paddingTop:"10px" }} >
         <div className="col-8 mx-lg-auto text-lg-center">
             <p className="text-sm text-secondary mt-4" style={{color:`#E4C59E`, fontWeight:700, fontSize:20}} >
             NISHITA  © Stitch&Glow.
