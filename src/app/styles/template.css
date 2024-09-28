@@ -22362,9 +22362,7 @@
     transform: translateX(5px);
   }
   
-  .navbar-light {
-    background-color: #fff !important;
-  }
+ 
   
   .navbar-light .navbar-toggler {
     border: none;
