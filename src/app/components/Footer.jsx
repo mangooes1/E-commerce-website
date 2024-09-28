@@ -1,114 +1,73 @@
-import React from 'react'
-import '../styles/template.css';
+
+import React from 'react';
 
 const Footer = () => {
   return (
-  
-    <div className="container mt-4 pt-7" style={{backgroundColor:`#FFF5E0` , borderTopLeftRadius: "20px", borderTopRightRadius: "20px" }} >
-    <div className="row">
-        <div className="col-lg-4 mb-5 mb-lg-0">
-            <h6 className="text-uppercase mb-2">Soft</h6>
-            <p className="mb-4 pb-2">
-            Discover bespoke beauty in our collection, where each piece is tailored to reflect individuality and timeless elegance.
+    <footer className="pt-5" style={{ backgroundColor: "#EEEDEB" }} >
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-2 text-center md:text-left">
+          {/* Logo */}
+          <div>
+            <h2 className="text-lg font-semibold tracking-wide"  style={{ color: "#181C14" }}>STITCH&GLOW</h2>
+          </div>
+
+          {/* Customer Care */}
+          <div>
+            <h3 className="text-lg font-semibold mb-2">CUSTOMER CARE</h3>
+            <ul>
+              <li>
+                <a href="/about" className="hover:text-black">Shipping Policy &gt;</a>
+              </li>
+              <li>
+                <a href="/about" className="hover:text-black">Returns Policy &gt;</a>
+              </li>
+              <li>
+                <a href="#contact" className="hover:text-black">Contact Us &gt;</a>
+              </li>
+              <li>
+                <a href="/about" className="hover:text-black">About Us &gt;</a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Visit Our Store */}
+          <div>
+            <h3 className="text-lg font-semibold mb-2"  style={{ color: "#181C14" }}>VISIT OUR STORE</h3>
+            <p  style={{ color: "#181C14" }}>
+            Shop no.J- 15, j block,Sarafa bazar <br />
+            Laxmi Nagar,Delhi 110092
             </p>
-            <a href="javascript:;" className="text-secondary me-xl-4 me-3">
-                <span className="text-lg fab fa-facebook" aria-hidden="true"></span>
-            </a>
-            <a href="javascript:;" className="text-secondary me-xl-4 me-3">
-                <span className="text-lg fab fa-twitter" aria-hidden="true"></span>
-            </a>
-            <a href="javascript:;" className="text-secondary me-xl-4 me-3">
-                <span className="text-lg fab fa-instagram" aria-hidden="true"></span>
-            </a>
-            <a href="javascript:;" className="text-secondary me-xl-4 me-3">
-                <span className="text-lg fab fa-pinterest" aria-hidden="true"></span>
-            </a>
-            <a href="javascript:;" className="text-secondary me-xl-4 me-3">
-                <span className="text-lg fab fa-github" aria-hidden="true"></span>
-            </a>
-        </div>
-        <div className="col-md-2 col-6 ms-lg-auto mb-md-0 mb-4">
-            <h6 className="text-sm">Company</h6>
-            <ul className="flex-column ms-n3 nav">
-                <li className="nav-item">
-                    <a className="nav-link text-secondary" href="#about">
-                        About Us
-                    </a>
-                </li>
+          </div>
 
-                <li className="nav-item">
-                    <a className="nav-link text-secondary" href="#features">
-                        Products
-                    </a>
-                </li>
-
-                <li className="nav-item">
-                    <a className="nav-link text-secondary" href="#query">
-                    FAQ's
-                    </a>
-                </li>
-
-            </ul>
+          {/* Stay Connected */}
+          <div>
+            <h3 className="text-lg font-semibold mb-2"  style={{ color: "#181C14" }}>STAY CONNECTED</h3>
+            <div className="flex justify-center md:justify-start space-x-4">
+              <a href="#" aria-label="Instagram" className="hover:text-white">
+                <i className="fab fa-instagram"></i>
+              </a>
+              <a href="#" aria-label="Facebook" className="hover:text-white">
+                <i className="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" aria-label="Twitter" className="hover:text-white">
+                <i className="fab fa-twitter"></i>
+              </a>
+              <a href="#" aria-label="Pinterest" className="hover:text-white">
+                <i className="fab fa-pinterest-p"></i>
+              </a>
+            </div>
+          </div>
         </div>
 
-        <div className="col-md-2 col-6 mb-md-0 mb-4">
-            <h6 className="text-sm">Pages</h6>
-            <ul className="flex-column ms-n3 nav">
-                <li className="nav-item">
-                    <a className="nav-link text-secondary" href="#contact">
-                        Contact Us
-                    </a>
-                </li>
-
-                <li className="nav-item">
-                    <a className="nav-link text-secondary" href="#about">
-                    Terms and Conditions
-                    </a>
-                </li>
-
-                <li className="nav-item">
-                    <a className="nav-link text-secondary" href="#contact">
-                        Collaborations
-                    </a>
-                </li>
-
-              
-            </ul>
-        </div> 
-
-        <div className="col-md-4 col-12 mb-md-0 mb-4 pl-6">
-            <h6 className="text-sm">Resources</h6>
-            <ul className="flex-column ms-n3 nav">
-                <li className="nav-item">
-                    <a className="nav-link text-secondary" href="javascript:;">
-                        Blog
-                    </a>
-                </li>
-
-                <li className="nav-item">
-                    <a className="nav-link text-secondary" href="javascript:;">
-                        Service
-                    </a>
-                </li>
-
-                    <li className="nav-item">
-                    <a className="nav-link text-secondary" href="#Shop">
-                        Pricing
-                    </a>
-                </li>
-            </ul>
+        {/* Copyright */}
+        <div className="mt-4  pt-4 text-center md:text-left" style={{ backgroundColor: "#000",paddingBottom :'10px'}} >
+          <p> Nishita © <a href="/" className="text" style={{ color: "#D4D7DD" }} >STITCH&GLOW</a></p>
         </div>
-    </div>
-    {/* <hr className="horizontal dark mt-lg-5 mt-4 mb-sm-4 mb-1"/> */}
-    <div className=" footer-row " style={{backgroundColor:`#000`,padding:5,borderTopLeftRadius: "20px", borderTopRightRadius: "20px", paddingTop:"10px" }} >
-        <div className="col-8 mx-lg-auto text-lg-center">
-            <p className="text-sm text-secondary mt-4" style={{color:`#E4C59E`, fontWeight:700, fontSize:20}} >
-            NISHITA  © Stitch&Glow.
-            </p>
-        </div>
-    </div>
-</div>
-  )
-}
+      </div>
 
-export default Footer
+   
+    </footer>
+  );
+};
+
+export default Footer;

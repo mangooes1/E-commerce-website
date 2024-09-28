@@ -4,7 +4,7 @@ const page = () => {
   return (
     <>
     <center>
-      <div className="style" style={{ backgroundColor: "#fff5e0" }}>
+      <div className="style">
         <Shop />
       </div>
       </center>

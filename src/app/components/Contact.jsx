@@ -36,18 +36,18 @@ const Contact = () => {
 
   return isSubmitted ? (
     <div style={{ borderRadius:"20px"}}>
-      <h1 className="text-center font-semibold text-3xl">
+      <h1 className="text-center font-semibold text-3xl"  style={{ color: "#181C14" }}>
         Thank you for your message!
       </h1>
       <Confetti />
     </div>
   ) : (
-    <div className="container pt-6 " id='contact'  style={{backgroundColor:`#FFF5E0`,marginTop:"25px", borderRadius:"20px"}}>
+    <div className="container pt-6 " id='contact'  style={{marginTop:"25px", borderRadius:"20px"}}>
       <div className="row align-items-center">
         <div className="col-lg-8 mx-auto text-center">
-          <div className="ms-3 mb-md-5">
-            <h3>Contact us</h3>
-            <p>
+          <div className="ms-3 mb-md-5" >
+            <h3  style={{ color: "#181C14" }}>Contact us</h3>
+            <p  style={{ color: "#181C14" }}>
               For further questions, including partnership opportunities, please email Nishu@gmail.com
               or contact using our contact form.
             </p>
@@ -60,7 +60,7 @@ const Contact = () => {
             <form onSubmit={onSubmit} className="card-body">
               <div className="row">
                 <div className="col-md-6">
-                  <label  style={{backgroundColor:`#FFF5E0`}}>Enter Your Name</label>
+                  <label>Enter Your Name</label>
                   <div className="input-group mb-4">
                     <input
                       className="form-control"
@@ -74,7 +74,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="col-md-6 ps-md-2">
-                  <label  style={{backgroundColor:`#FFF5E0`}}>Email</label>
+                  <label>Email</label>
                   <div className="input-group">
                     <input
                       type="email"
@@ -88,7 +88,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="form-group mb-4 mt-md-0 mt-4">
-                <label  style={{backgroundColor:`#FFF5E0`}}>What can we help you?</label>
+                <label>What can we help you?</label>
                 <textarea
                   name="message"
                   className="form-control"
